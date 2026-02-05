@@ -144,9 +144,9 @@ def generate_pdf(lines, title):
 # -----------------------------
 # STREAMLIT UI
 # -----------------------------
-st.set_page_config(page_title="Church Chord Sheet Maker Trial")
+st.set_page_config(page_title="Church Chord Sheet Maker")
 
-st.title("🎵 Church Chord Sheet Maker")
+st.title("🎵 Church Chord Sheet Maker  Trial")
 
 title = st.text_input("Song title", "Untitled Song")
 
