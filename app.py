@@ -160,9 +160,9 @@ key_change = st.radio(
 )
 
 KEY_SHIFT = {
-    "Lower": -2,
+    "Lower": -1,
     "Same": 0,
-    "Higher": 2
+    "Higher": 1
 }
 
 if st.button("Generate Chord Sheet"):
