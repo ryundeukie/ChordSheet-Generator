@@ -144,7 +144,7 @@ def generate_pdf(lines, title):
 # -----------------------------
 # STREAMLIT UI
 # -----------------------------
-st.set_page_config(page_title="Church Chord Sheet Maker")
+st.set_page_config(page_title="Church Chord Sheet Maker Trial")
 
 st.title("🎵 Church Chord Sheet Maker")
 
