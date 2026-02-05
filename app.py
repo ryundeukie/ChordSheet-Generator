@@ -72,13 +72,13 @@ def draw_line_with_bold_chords(c, x, y, line):
 
         # Draw normal text before chord
         normal_text = line[last_idx:start]
-        c.setFont("Courier", FONT_SIZE)
+        c.setFont("Roboto Mono", FONT_SIZE)
         c.drawString(cursor_x, y, normal_text)
         cursor_x += len(normal_text) * CHAR_WIDTH
 
         # Draw chord in bold
         chord_text = line[start:end]
-        c.setFont("Courier-Bold", FONT_SIZE)
+        c.setFont("Roboto Mono", FONT_SIZE)
         c.drawString(cursor_x, y, chord_text)
         cursor_x += len(chord_text) * CHAR_WIDTH
 
@@ -86,7 +86,7 @@ def draw_line_with_bold_chords(c, x, y, line):
 
     # Draw remaining text
     remaining = line[last_idx:]
-    c.setFont("Courier", FONT_SIZE)
+    c.setFont("Univers", FONT_SIZE)
     c.drawString(cursor_x, y, remaining)
 
 
